@@ -1,0 +1,185 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#ffffff, #ebdcff);
+}
+
+#banner {
+  margin: 100px auto 120px auto;
+  width: 87.5%;
+  border: 2px solid #872bff10;
+  border-radius: 50px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(images/hero-bg.png);
+  background-color: white10;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content * {
+  margin-bottom: 20px;
+}
+.banner-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.banner-content p {
+  font-weight: medium;
+  font-size: 18px;
+  color: #a8a8a8;
+}
+.banner-content h1 span {
+  color: #f411cf;
+}
+.btn {
+  background-color: #872bff;
+  border-radius: 30px;
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+}
+.btn-white {
+  border-radius: 30px;
+  padding: 16px 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-right: 10px;
+}
+.banner-content img {
+  width: 50%;
+}
+#service,
+#turist,
+.story-contant,
+.country-card {
+  margin: 0px auto 120px auto;
+  width: 87.5%;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.heading h4 {
+  font-size: 24px;
+  font-weight: italic;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  color: #f411cf;
+  text-transform: uppercase;
+}
+.heading h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.service-card {
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  padding: 60px;
+  width: 350px;
+}
+.service-card h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.service-card p {
+  font-size: 18px;
+  font-weight: medium;
+  color: #a8a8a8;
+}
+.service-card img {
+  margin-bottom: 30px;
+}
+.story-contant {
+  display: flex;
+  padding: 48px;
+  background-color: white;
+  border-radius: 24px;
+  justify-content: space-between;
+  gap: 32px;
+}
+.story-text h2 {
+  font-size: 32px;
+}
+.story-text p {
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+  text-align: justify;
+}
+.story-text h2,
+.story-text img,
+.story-text p {
+  margin-bottom: 10px;
+}
+.story-text p {
+  margin-bottom: 30px;
+}
+.country-card {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.country-card h2 {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+#btnn {
+  text-align: center;
+  margin-top: -60px;
+}
+#turist {
+  margin-top: 120px;
+  text-align: right;
+}
+.text {
+  text-align: center;
+}
+#turist h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+#turist p {
+  padding-top: -30px;
+}
+#turist img {
+  margin-bottom: 40px;
+}
+
+.feed {
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+.footer {
+  background-color: #f3f3f3;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot1 {
+  font-weight: 16px;
+  font-size: small;
+  margin-top: 10px;
+}
