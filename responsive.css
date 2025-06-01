@@ -1,0 +1,57 @@
+/* Laptop Device */
+@media screen and (max-width: 1200px) {
+  .banner-content h1 {
+    font-size: 50px;
+  }
+  .service-card {
+    padding: 60px 20px;
+  }
+}
+
+/* Tablet Device */
+@media screen and (max-width: 1024px) {
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content img {
+    width: 100%;
+  }
+  #banner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .card1 {
+    flex-direction: column;
+  }
+  .service-card {
+    max-width: 100%;
+  }
+  .story-text {
+    width: 100%;
+  }
+  .heading h2 {
+    font-size: 28px;
+  }
+  .heading h4 {
+    font-size: 20px;
+  }
+  .story-img {
+    width: 100%;
+  }
+  .story-contant {
+    flex-direction: column;
+  }
+}
+
+/* Mobile Device */
+@media screen and (max-width: 640px) {
+  .banner-content h1 {
+    font-size: 50px;
+  }
+  .banner-content h1 {
+    font-size: 36px;
+  }
+  .service-card h2 {
+    font-size: 30px;
+  }
+}
